@@ -1,0 +1,533 @@
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+}
+
+.navbar {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.navbar-solid {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-pesan {
+  padding: 10px 20px;
+  background: rgb(55, 135, 160);
+  color: white;
+  font-weight: 10px;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn-pesan:hover {
+  color: white;
+  background: silver;
+}
+
+@media (max-width: 768px) {
+  .btn-pesan {
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+.beranda {
+  width: 100%;
+  min-height: 70vh;
+  position: relative;
+  padding: 150px 0 40px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.beranda .beranda-bg img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.beranda .container {
+  position: relative;
+  z-index: 3;
+}
+
+.beranda h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(60, 60, 60);
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.beranda h1 span{
+  color:rgb(55, 135, 160);
+}
+
+.beranda p{
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .beranda .beranda-img {
+    max-width: 600px;
+  }
+}
+
+.about {
+  padding: 60px 0;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(55, 135, 160);
+}
+
+.tentang {
+  font-size: 12px;
+  color: grey;
+}
+
+.kami {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 0 50px;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .kami ul li i {
+    font-size: 18px;
+  }
+  
+  .kami ul li span {
+    font-size: 16px;
+  }
+}
+
+.services {
+  padding: 60px 0;
+  background-color: #ECEFF1;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.jasa {
+  font-size: 12px;
+  color: grey;
+}
+
+.section-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(55, 135, 160);
+}
+
+.service-item {
+  background-color: white;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgb(55, 135, 160);
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+.service-item i {
+  font-size: 2rem;
+  color: rgb(55, 135, 160);
+}
+
+.service-item h5 {
+  font-weight: bold;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .section-title h3 {
+    font-size: 28px;
+  }
+}
+
+.product {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.barang {
+  font-size: 12px;
+  color: grey;
+}
+
+.section-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(55, 135, 160);
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.slide img {
+  width: auto;
+  height: 200px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-details {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #666;
+}
+
+.hp {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.arrow {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(55, 135, 160);
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(55, 135, 160, 0.2);
+}
+
+.arrow.left {
+  left: 300px;
+}
+
+.arrow.right {
+  right: 300px;
+}
+
+.arrow:hover {
+  background-color: rgb(55, 135, 160);
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: rgb(55, 135, 160);
+}
+
+@media (max-width: 768px) {
+  .section-title h3 {
+    font-size: 24px;
+  }
+
+  .slider-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .slide img {
+    max-width: 120px;
+  }
+
+  .product-details {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .dots-container {
+    gap: 5px;
+  }
+}
+
+.price {
+  padding: 60px 0;
+  background-color: #ECEFF1;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.harga {
+  font-size: 12px;
+  color: grey;
+}
+
+.section-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(55, 135, 160);
+}
+
+.card-body {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgb(55, 135, 160);
+  transition: transform 0.3s;
+}
+
+.card-body:hover {
+  transform: translateY(-5px);
+}
+
+.card-body h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(60, 60, 60);
+}
+
+.card-body i {
+  font-size: 2rem;
+  color: rgb(55, 135, 160);
+}
+
+.card-body h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  width: 100%; /* Mengisi seluruh lebar card */
+  height: auto; /* Menjaga proporsi gambar */
+  max-height: 200px; /* Batasi tinggi maksimum jika perlu */
+  object-fit: cover; /* Mengatur gambar agar tidak terdistorsi */
+  border-radius: 8px; /* Opsional: membuat sudut gambar melengkung */
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 3px 8px rgba(55, 135, 160, 0.7);
+  }
+
+  .card-body h5, .card-body h3 {
+    font-size: 18px;
+  }
+
+  .section-title h3 {
+    font-size: 22px;
+  }
+
+  .harga {
+    font-size: 10px;
+  }
+}
+
+.contact {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info {
+  font-size: 12px;
+  color: grey;
+}
+
+.section-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(55, 135, 160);
+}
+
+.info-item {
+  padding: 20px 0 30px 0;
+  box-shadow: 0 2px 4px rgb(55, 135, 160);
+  border-radius: 10px;
+}
+
+.info-item i {
+  font-size: 20px;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(55, 135, 160);
+}
+
+.info-item h3 {
+  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.map-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 450px;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  background: #ECEFF1;
+  color: #212529;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+footer ul.fa-ul li {
+  font-size: 1rem;
+  color: #495057;
+}
+
+footer ul.fa-ul li i {
+  color: #007bff;
+}
+
+footer table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+footer table td {
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+footer table td:first-child {
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+}
+
+footer table td:last-child {
+  color: rgb(55, 135, 160);
+}
+
+footer .text-center {
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+footer .text-center a {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+}
+
+footer .text-center a:hover {
+  color: rgb(60, 60, 60);
+  text-decoration: underline;
+}

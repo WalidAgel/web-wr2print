@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="bootstrap/bootstrap533/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap/bootstrap-icons/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -45,6 +46,7 @@
     </div>
   </nav>
 
+
   <section id="beranda" class="beranda">
     <div class="beranda-bg">
       <img src="img/bg.webp" alt="">
@@ -52,9 +54,14 @@
 
     <div class="container text-center">
       <div class="d-flex flex-column justify-content-center align-items-center">
-        <h1>Welcome to <span>WR2 PRINT</span></h1>
-        <p>Mencetak Masa Depan Menjadi Kenyataan</p>
-        <img src="img/service.webp" class="img-fluid beranda-img" alt="">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          Welcome to <span>WR2 PRINT</span>
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          Mencetak Masa Depan Menjadi Kenyataan
+        </p>
+        <img src="img/service.webp" class="img-fluid beranda-img" data-aos="zoom-in" data-aos-duration="1000"
+          data-aos-delay="600" alt="">
       </div>
     </div>
   </section>
@@ -62,9 +69,13 @@
   <section id="about" class="about section">
     <div class="container">
       <div class="row gy-4">
-        <p id="tentang" class="tentang pt-5">ABOUT US</p>
-        <h3>TENTANG KAMI</h3>
-        <p class="kami pb-5">
+        <p id="tentang" class="tentang pt-5" data-aos="fade-down" data-aos-duration="800">
+          ABOUT US
+        </p>
+        <h3 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          TENTANG KAMI
+        </h3>
+        <p class="kami pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
           Selamat datang di WR2 PRINT, layanan cetak profesional yang siap memenuhi kebutuhan Anda! Kami adalah penyedia
           jasa printer yang berfokus pada kualitas hasil cetak dan kepuasan pelanggan.
           Dengan pengalaman bertahun-tahun di industri percetakan kami hadir untuk melayani berbagai kebutuhan cetak
@@ -80,118 +91,119 @@
   </section>
 
   <section id="services" class="services section">
-    <div class="container section-title">
-      <p id="jasa" class="jasa pt-5">SERVICES</p>
-      <h3>PILIHAN JASA KAMI</h3>
-    </div>
+  <div class="container section-title" data-aos="fade-up">
+    <p id="jasa" class="jasa pt-5">SERVICES</p>
+    <h3>PILIHAN JASA KAMI</h3>
+  </div>
 
-    <div class="container pb-5">
-      <div class="row g-5">
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-file-text"></i>
-            </div>
-            <h5 class="fw-bold">Cetak Dokumen</h5>
-            <p class="text-muted">
-              Kami menyediakan layanan cetak dokumen dengan kualitas terbaik untuk berbagai kebutuhan Anda, baik dokumen
-              resmi, tugas, atau materi pekerjaan.
-            </p>
+  <div class="container pb-5">
+    <div class="row g-5">
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-file-text"></i>
           </div>
+          <h5 class="fw-bold">Cetak Dokumen</h5>
+          <p class="text-muted">
+            Kami menyediakan layanan cetak dokumen dengan kualitas terbaik untuk berbagai kebutuhan Anda, baik dokumen
+            resmi, tugas, atau materi pekerjaan.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-card-text"></i>
-            </div>
-            <h5 class="fw-bold">Cetak Kartu Nama</h5>
-            <p class="text-muted">
-              Tinggalkan kesan pertama yang tak terlupakan dengan kartu nama profesional kami. Desain menarik, kualitas
-              tinggi, dan berbagai pilihan bahan.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-card-text"></i>
           </div>
+          <h5 class="fw-bold">Cetak Kartu Nama</h5>
+          <p class="text-muted">
+            Tinggalkan kesan pertama yang tak terlupakan dengan kartu nama profesional kami. Desain menarik, kualitas
+            tinggi, dan berbagai pilihan bahan.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-image"></i>
-            </div>
-            <h5 class="fw-bold">Cetak Foto</h5>
-            <p class="text-muted">
-              Cetak foto dengan kualitas tinggi yang tahan lama. Pilihan ukuran lengkap untuk keperluan dokumentasi,
-              kenangan, atau hadiah istimewa.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-image"></i>
           </div>
+          <h5 class="fw-bold">Cetak Foto</h5>
+          <p class="text-muted">
+            Cetak foto dengan kualitas tinggi yang tahan lama. Pilihan ukuran lengkap untuk keperluan dokumentasi,
+            kenangan, atau hadiah istimewa.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-sticky"></i>
-            </div>
-            <h5 class="fw-bold">Cetak Stiker</h5>
-            <p class="text-muted">
-              Buat stiker yang menarik untuk keperluan promosi, dekorasi, atau personalisasi. Pilihan bahan dan ukuran
-              yang sesuai kebutuhan.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-sticky"></i>
           </div>
+          <h5 class="fw-bold">Cetak Stiker</h5>
+          <p class="text-muted">
+            Buat stiker yang menarik untuk keperluan promosi, dekorasi, atau personalisasi. Pilihan bahan dan ukuran
+            yang sesuai kebutuhan.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-envelope-open"></i>
-            </div>
-            <h5 class="fw-bold">Cetak Undangan</h5>
-            <p class="text-muted">
-              Cetak undangan untuk berbagai acara dengan desain elegan dan pilihan bahan berkualitas. Sesuaikan dengan
-              tema acara Anda.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="500">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-envelope-open"></i>
           </div>
+          <h5 class="fw-bold">Cetak Undangan</h5>
+          <p class="text-muted">
+            Cetak undangan untuk berbagai acara dengan desain elegan dan pilihan bahan berkualitas. Sesuaikan dengan
+            tema acara Anda.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-file-earmark-lock"></i>
-            </div>
-            <h5 class="fw-bold">Laminating</h5>
-            <p class="text-muted">
-              Lindungi dokumen penting Anda dari kerusakan dengan layanan laminating berkualitas. Tersedia dalam
-              berbagai ukuran.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="600">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-file-earmark-lock"></i>
           </div>
+          <h5 class="fw-bold">Laminating</h5>
+          <p class="text-muted">
+            Lindungi dokumen penting Anda dari kerusakan dengan layanan laminating berkualitas. Tersedia dalam
+            berbagai ukuran.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-journal-text"></i>
-            </div>
-            <h5 class="fw-bold">Makalah</h5>
-            <p class="text-muted">
-              Dukung penyusunan makalah Anda dengan layanan cetak kami. Pilihan format dan finishing yang sesuai dengan
-              kebutuhan akademik.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="700">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-journal-text"></i>
           </div>
+          <h5 class="fw-bold">Makalah</h5>
+          <p class="text-muted">
+            Dukung penyusunan makalah Anda dengan layanan cetak kami. Pilihan format dan finishing yang sesuai dengan
+            kebutuhan akademik.
+          </p>
         </div>
+      </div>
 
-        <div class="col-lg-6">
-          <div class="service-item p-4 border rounded">
-            <div class="icon mb-3">
-              <i class="bi bi-controller"></i>
-            </div>
-            <h5 class="fw-bold">Top Up Game</h5>
-            <p class="text-muted">
-              Nikmati pengalaman gaming tanpa batas dengan layanan top-up game kami. Proses cepat dan harga kompetitif.
-            </p>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="800">
+        <div class="service-item p-4 border rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-controller"></i>
           </div>
+          <h5 class="fw-bold">Top Up Game</h5>
+          <p class="text-muted">
+            Nikmati pengalaman gaming tanpa batas dengan layanan top-up game kami. Proses cepat dan harga kompetitif.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <section id="product" class="product section">
     <div class="container section-title">
@@ -276,7 +288,7 @@
   </section>
 
   <section id="price" class="price section">
-  <div class="container section-title">
+  <div class="container section-title" data-aos="fade-up">
     <p id="harga" class="harga pt-5">PRICE</p>
     <h3>DAFTAR HARGA</h3>
   </div>
@@ -284,7 +296,7 @@
   <div class="container pb-5">
     <div class="row g-4">
       <!-- Item 1: Cetak Dokumen -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="100">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Cetak Dokumen</h5>
@@ -295,7 +307,7 @@
       </div>
 
       <!-- Item 2: Cetak Foto -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Cetak Foto</h5>
@@ -306,7 +318,7 @@
       </div>
 
       <!-- Item 3: Cetak Stiker -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="300">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Cetak Stiker</h5>
@@ -317,7 +329,7 @@
       </div>
 
       <!-- Item 4: Cetak Undangan -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="400">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Cetak Undangan</h5>
@@ -328,7 +340,7 @@
       </div>
 
       <!-- Item 5: Laminating -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Laminating</h5>
@@ -339,7 +351,7 @@
       </div>
 
       <!-- Item 6: Top Up Game -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="600">
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Top Up Game</h5>
@@ -353,107 +365,127 @@
 </section>
 
 
-  <section id="contact" class="contact section">
-    <div class="container section-title">
-      <p id="info" class="info pt-5">CONTACT</p>
-      <h3>HUBUNGI KAMI</h3>
-    </div>
 
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-6">
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-geo-alt"></i>
-            <h3>Alamat</h3>
-            <p>Jl.Dirgahayu No.106</p>
-          </div>
-        </div>
+<section id="contact" class="contact section">
+  <div class="container section-title" data-aos="fade-up">
+    <p id="info" class="info pt-5">CONTACT</p>
+    <h3>HUBUNGI KAMI</h3>
+  </div>
 
-        <div class="col-lg-3 col-md-6">
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-telephone"></i>
-            <h3>Phone</h3>
-            <p>+62 8124 7564 179</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-envelope"></i>
-            <h3>Email</h3>
-            <p>ramanurj@gmail.com</p>
-          </div>
-        </div>
-
-        <div class="container map-container pb-5">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.762731819664!2d113.46907759999999!3d-7.153409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77e047bfbe6f1%3A0x8c645bbe83acf497!2sJl.%20Dirgahayu%20No.106%2C%20Atoran%2C%20Bugih%2C%20Kec.%20Pamekasan%2C%20Kabupaten%20Pamekasan%2C%20Jawa%20Timur%2069317!5e0!3m2!1sid!2sid!4v1732795677505!5m2!1sid!2sid"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Alamat -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+        <div class="info-item d-flex flex-column justify-content-center align-items-center">
+          <i class="bi bi-geo-alt"></i>
+          <h3>Alamat</h3>
+          <p>Jl.Dirgahayu No.106</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <footer class="text-dark text-center text-lg-start">
-    <div class="container p-4">
-      <div class="row mt-4">
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">WR2 PRINT</h5>
-
-          <p>
-            WR2 PRINT adalah solusi percetakan modern yang menyediakan berbagai layanan cetak berkualitas tinggi,
-            mulai dari kartu nama hingga spanduk besar, dengan harga yang kompetitif dan hasil yang memuaskan.
-          </p>
-
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 pb-1">Call Us</h5>
-
-          <ul class="fa-ul" style="margin-left: 1.65em;">
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Jl.Dirgahayu No.106</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">ramanurj@gmail.com</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+62 8124 7564 179</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Opening Hours</h5>
-
-          <table class="table text-center text-dark">
-            <tbody class="fw-normal">
-              <tr>
-                <td>Senin - Kamis:</td>
-                <td>09.00 - 21.00</td>
-              </tr>
-              <tr>
-                <td>Jumat - Sabtu:</td>
-                <td>01.00 - 21.00</td>
-              </tr>
-              <tr>
-                <td>Minggu:</td>
-                <td>Tutup</td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- Phone -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-item d-flex flex-column justify-content-center align-items-center">
+          <i class="bi bi-telephone"></i>
+          <h3>Phone</h3>
+          <p>+62 877-2463-6300</p>
         </div>
       </div>
-    </div>
 
-    <div class="text-center p-3" style="background-color:silver;">
+      <!-- Email -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="info-item d-flex flex-column justify-content-center align-items-center">
+          <i class="bi bi-envelope"></i>
+          <h3>Email</h3>
+          <p>abtprint01@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="container map-container pb-5" data-aos="zoom-in" data-aos-delay="400">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.762731819664!2d113.46907759999999!3d-7.153409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77e047bfbe6f1%3A0x8c645bbe83acf497!2sJl.%20Dirgahayu%20No.106%2C%20Atoran%2C%20Bugih%2C%20Kec.%20Pamekasan%2C%20Kabupaten%20Pamekasan%2C%20Jawa%20Timur%2069317!5e0!3m2!1sid!2sid!4v1732795677505!5m2!1sid!2sid"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="text-dark text-center text-lg-start">
+  <div class="container p-4">
+    <div class="row mt-4">
+      <!-- WR2 PRINT Info -->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="100">
+        <h5 class="text-uppercase mb-4">WR2 PRINT</h5>
+        <p>
+          WR2 PRINT adalah solusi percetakan modern yang menyediakan berbagai layanan cetak berkualitas tinggi,
+          mulai dari kartu nama hingga spanduk besar, dengan harga yang kompetitif dan hasil yang memuaskan.
+        </p>
+      </div>
+
+      <!-- Call Us Section -->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+        <h5 class="text-uppercase mb-4 pb-1">Call Us</h5>
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Jl.Dirgahayu No.106</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">abtprint01@gmail.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+62 877-2463-6300</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0" data-aos="fade-left" data-aos-delay="300">
+        <h5 class="text-uppercase mb-4">Opening Hours</h5>
+        <table class="table text-center text-dark">
+          <tbody class="fw-normal">
+            <tr>
+              <td>Senin - Kamis:</td>
+              <td>09.00 - 21.00</td>
+            </tr>
+            <tr>
+              <td>Jumat - Sabtu:</td>
+              <td>01.00 - 21.00</td>
+            </tr>
+            <tr>
+              <td>Minggu:</td>
+              <td>Tutup</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+ <div class="text-center p-3" style="background-color:silver;">
       © 2024 Copyright:
       <a class="text-dark" href="https://mdbootstrap.com/">WR2 PRINT</a>
     </div>
-  </footer>
+</footer>
 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="bootstrap/bootstrap533/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    AOS.init({
+      once: true,
+      offset: 120,
+      duration: 1000,
+      easing: 'ease',
+    });
+  </script>
+
+  
+
 
   <script>
     document.addEventListener("scroll", function () {
